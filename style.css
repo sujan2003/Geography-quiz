@@ -1,0 +1,39 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    /* background-image: linear-gradient(to right, #F96167 , #FCE77D); */
+}
+
+#headline {
+    margin: 0;
+    position: relative;
+    left: 40%;
+}
+
+.box {
+    color: white;
+    background-color: #30302d;
+    width: 40vw;
+    height: 30vh;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #30302d;
+    padding: 10px;
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
